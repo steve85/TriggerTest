@@ -8,8 +8,9 @@ namespace ConsoleApplication1
     class Program
     {
         static void Main(string[] args)
-        {
+        {		
 			Console.WriteLine("Hello World");
+			Console.ReadLine(); // Add the read line so that console would wait
         }
     }
 }
