@@ -10,6 +10,7 @@ namespace ConsoleApplication1
 		public String FirstName {get; set;}
 		public String LastName {get; set;}
 		public Int32 Age {get; set;}
+		public Gender Sex {get; set;}
 		
 		public override String ToString()
 		{
