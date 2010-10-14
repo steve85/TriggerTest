@@ -14,10 +14,11 @@ namespace ConsoleApplication1
 		
 		public override String ToString()
 		{
-			return String.Format("Hello, my name is {0} {1} and I am {3} years old.",
+			return String.Format("Hello, my name is {0} {1} and I am {2} years old. I am a {3}.",
 			this.FirstName,
 			this.LastName,
-			this.Age);
+			this.Age,
+			Sex == Gender.Male ? "Male" : "Female");
 		}
     }
 }
